@@ -1,0 +1,67 @@
+.auth {
+    background-color: white;
+    position: relative;
+    border-radius: 24px;
+    display: flex;
+    width: 700px;
+    overflow: hidden;
+
+
+    &-welcome {
+        user-select: none;
+        position: absolute;
+        color: white;
+        height: 100%;
+        width: 50%;
+        background-color: #fd6c37;
+        flex-direction: column;
+        transition: 1s;
+        display: flex;
+        padding: 40px 20px;
+        align-items: center;
+        gap: 25%;
+        text-align: center;
+
+        &__description {
+            width: 300px;
+        }
+    }
+
+    &-action {
+        display: flex;
+        width: 100%;
+        justify-content: right;
+        padding: 24px 48px;
+
+        &-form {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            & > * {
+                display: flex;
+                flex-direction: column;
+                gap: 12px;
+            }
+
+            &__question {
+                display: block;
+
+                font-size: 14px;
+
+                &-btn {
+                    color: #fd6c37;
+                    cursor: pointer;
+                    margin-left: 8px;
+                }
+            }
+        }
+
+    }
+
+}
+
+
+
+
+

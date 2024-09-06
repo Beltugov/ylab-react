@@ -1,0 +1,19 @@
+.my-button {
+    background-color: #fd6c37;
+    color: white;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 8px 2px #bebebe;
+
+    &:hover {
+        opacity: 0.9;
+    }
+
+    &:disabled {
+        opacity: 0.5;
+    }
+
+}
