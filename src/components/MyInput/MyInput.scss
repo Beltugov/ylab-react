@@ -1,0 +1,28 @@
+.my-input {
+    border: 1px black solid;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 16px;
+    box-shadow: 0px 2px 8px 2px #bebebe;
+
+    &:hover {
+        background-color: #f8f8f8;
+
+    }
+
+    &:focus {
+        border-color: #fd6c37;
+
+    }
+}
+
+.error {
+    border-color: red;
+}
+
+.error-message {
+    font-size: 12px;
+    color: red;
+    margin-left: 8px;
+    margin-top: 4px;
+}
